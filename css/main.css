@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -50,5 +51,89 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background: #0A0C1C 0% 0% no-repeat padding-box;
+}
+
+body main {
+  margin: 5.5rem 1.5rem;
+  background: #1B1937 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 20px #17192934;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+body main img {
+  width: 20.4375rem;
+  height: 15rem;
+}
+
+body main .image-container {
+  position: relative;
+}
+
+body main .image-container:before {
+  content: "";
+  position: absolute;
+  background-color: #AB5CDB;
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+  filter: opacity(0.75);
+}
+
+body main h1, body main h2 {
+  color: white;
+}
+
+body main p {
+  color: white;
+  opacity: 0.75;
+}
+
+body main .main-section {
+  margin: auto;
+}
+
+body main .main-section h1 {
+  margin-top: 2.5rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+}
+
+body main .main-section h1 em {
+  color: #AB5CDB;
+}
+
+body main .main-section p {
+  margin-top: 3.25rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+
+body main .second-section {
+  padding-top: 0.8125rem;
+  padding-bottom: 2.8125rem;
+}
+
+body main .second-section h2 {
+  margin-top: 2.3125rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+
+body main .second-section p {
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
