@@ -81,7 +81,7 @@ body main .image-container:before {
   position: absolute;
   background-color: #AB5CDB;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   mix-blend-mode: multiply;
   filter: opacity(0.75);
 }
