@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+$very-dark-blue: #0A0C1C;
+$dark-blue: #1B1937;
+$gray: #17192934;
+$violet: #AB5CDB;
+
+@function toRem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
