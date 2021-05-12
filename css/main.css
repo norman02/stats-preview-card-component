@@ -134,9 +134,48 @@ body main .second-section h2 {
 }
 
 body main .second-section p {
+  font-weight: 500;
   font-size: 0.75rem;
   line-height: 1.5625rem;
   letter-spacing: 0.0625rem;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 1100px) {
+  body main {
+    flex-direction: row-reverse;
+    margin: 22% auto;
+    max-width: 68.75rem;
+  }
+  body main .image-container img {
+    height: 100%;
+    width: auto;
+  }
+  body main .content-container {
+    padding: 4.4375rem 4.5rem 4.3125rem 4.5rem;
+    text-align: left;
+  }
+  body main .main-section {
+    margin: 0;
+  }
+  body main .main-section h1 {
+    margin-top: 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+  body main .main-section p {
+    margin-top: 2.0625rem;
+  }
+  body main .second-section {
+    padding: 0;
+    margin-top: 5.5625rem;
+  }
+  body main .second-section h2 {
+    margin: 0;
+  }
+  body main .second-section ul {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=main.css.map */

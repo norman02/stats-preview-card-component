@@ -1,0 +1,50 @@
+@include media-lg {
+    body {
+        main {
+            flex-direction: row-reverse;
+            margin: 22% auto;
+            max-width: toRem(1100);
+
+            .image-container {
+                
+    
+                img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
+            .content-container {
+                padding: toRem(71) toRem(72) toRem(69) toRem(72);
+                text-align: left;
+            }
+            .main-section {
+                margin: 0;
+                
+
+                h1 {
+                    margin-top: 0;
+                    font-size: toRem(36);
+                    line-height: toRem(44);
+                }
+
+                p {
+                    margin-top: toRem(33);
+                }
+            }
+
+            .second-section {
+                padding: 0;
+                margin-top: toRem(89);
+                h2 {
+                    margin: 0;
+                }
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        
+    }
+}
