@@ -2,7 +2,7 @@
     body {
         main {
             flex-direction: row-reverse;
-            margin: 22% auto;
+            margin: toRem(177) auto;
             max-width: toRem(1100);
 
             .image-container {
