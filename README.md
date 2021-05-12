@@ -1,2 +1,3 @@
 # stats-preview-card-component
-Stats Card
+
+This was my first attempt at coding a webpage using only Adobe XD. The process was mobile first development with Sass. 
