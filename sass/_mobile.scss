@@ -2,6 +2,8 @@ body {
     background: $very-dark-blue 0% 0% no-repeat padding-box;
     
     main {
+        display: flex;
+        flex-direction: column;
         margin: toRem(88) toRem(24);
         background: $dark-blue 0% 0% no-repeat padding-box;
         box-shadow: 0px 20px 20px $gray;
@@ -10,19 +12,23 @@ body {
         font-family: 'Inter', sans-serif;
         text-align: center;
     
-        img {
-            width: toRem(327);
-            height: toRem((240));
-        }
+        
+
 
         .image-container {
+            width: 100%;
             position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
             &:before {
                 content: "";
                 position: absolute;
                 background-color: $violet;
                 height: 100%;
-                max-width: 100%;
+                width: 100%;
                 mix-blend-mode: multiply;
                 filter: opacity(0.75);
             }

@@ -9,3 +9,21 @@ $violet: #AB5CDB;
     $remValue: ($value / 16) + rem; 
     @return $remValue;
 }
+
+@mixin media-md {
+    @media screen and (min-width: 700px){
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1100px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1800px) {
+        @content;
+    }
+}
